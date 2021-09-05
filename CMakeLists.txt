@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.19)
+project(uup C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(more01 01/more01.c)
+add_executable(more02 01/more02.c)
+add_executable(who1 02/who1.c)
+add_executable(cp1 02/cp1.c)
+add_executable(utmplib 02/utmplib.c)
+add_executable(who0 02/who0.c)
+add_executable(who2 02/who2.c)
+add_executable(ls1 03/ls1.c)
+add_executable(fileinfo 03/fileinfo.c)
+add_executable(ls2 03/ls2.c)
